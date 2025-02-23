@@ -13,7 +13,7 @@ const projects = () => {
               Previous Work ExperiencesPrevious Work ExperiencesPrevious Work ExperiencesPrevious Work Experiences
               </p>
 
-        <div className='grid grid-cols-auto my-10 gap-5'>
+        <div className='grid grid-cols-auto my-10 gap-5 dark:text-black'>
             {workData.map((project,index)=>(
                 <div key={index} className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
                  style={{backgroundImage: `url(${project.bgImage})`}}>
