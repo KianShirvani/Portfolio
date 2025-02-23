@@ -2,7 +2,7 @@ import { assets, workData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
-
+import Link from 'next/link';
 
 const projects = () => {
   return (
@@ -28,8 +28,6 @@ transition={{duration: 1}}
                   whileInView={{opacity: 1}}
                   transition={{duration: 0.5, delay: 0.7}}
               className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-              Previous Work ExperiencesPrevious Work ExperiencesPrevious Work ExperiencesPrevious Work ExperiencesPrevious Work Experiences
-              Previous Work ExperiencesPrevious Work ExperiencesPrevious Work ExperiencesPrevious Work Experiences
               </motion.p>
 
         <motion.div 
@@ -49,9 +47,11 @@ transition={{duration: 1}}
                         <h2 className='font-semibold'>{project.title}</h2>
                         <p className='text-sm text-gray-700'>{[project.description]}</p>
                     </div>
-                    <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
-                        <Image src={assets.send_icon} alt='send icon' className='w-5' />
-                    </div>
+                  <Link href="https://github.com/KianShirvani">
+                      <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition cursor-pointer'>
+                          <Image src={assets.send_icon} alt='send icon' className='w-5' />
+                      </div>
+                  </Link>
 
                     </div>
                 </motion.div>

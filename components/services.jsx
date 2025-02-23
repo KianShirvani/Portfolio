@@ -15,7 +15,7 @@ const services = () => {
               initial={{opacity: 0, y: -20}}
               whileInView={{opacity: 1, y: 0}}
               transition={{duration: 0.5, delay: 0.3}}
-              className='text-center mb-2 text-lg font-Ovo'>Previous Work Experiences</motion.h4>
+              className='text-center mb-2 text-lg font-Ovo'></motion.h4>
               <motion.h2
               initial={{opacity: 0, y: -20}}
               whileInView={{opacity: 1, y: 0}}
@@ -27,8 +27,7 @@ const services = () => {
               whileInView={{opacity: 1}}
               transition={{duration: 0.5, delay: 0.7}}
               className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-              Previous Work ExperiencesPrevious Work ExperiencesPrevious Work ExperiencesPrevious Work ExperiencesPrevious Work Experiences
-              Previous Work ExperiencesPrevious Work ExperiencesPrevious Work ExperiencesPrevious Work Experiences
+
               </motion.p>
         <motion.div
                       initial={{opacity: 0}}

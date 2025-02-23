@@ -98,23 +98,23 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Full Stack Project',
+        description: 'Task Management Platform',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Game of the Amazons AI Engine',
+        description: 'Artificial Intelligence',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Is Bitcoin a Recession Hedge Similar to Gold?',
+        description: 'Data Analysis',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Neighbourhood Hub',
+        description: 'UI/UX Design and Android Development',
         bgImage: '/work-4.png',
     },
 ]
