@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Ignore node_modules
+node_modules/
+.next/
+out/
+dist/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore lock files (optional)
+yarn.lock
+pnpm-lock.yaml
