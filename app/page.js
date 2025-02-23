@@ -3,6 +3,8 @@ import Navbar from "../components/navbar";
 import Header from "../components/header"; 
 import About from "../components/about"; 
 import Services from "../components/services"; 
+import Projects from "../components/projects"; 
+
 
 
 
@@ -13,7 +15,7 @@ export default function Home() {
       <Header/>
       <About/>
       <Services/>
-
+      <Projects/>
     </>
   );
 }
