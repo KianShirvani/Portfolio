@@ -1,14 +1,13 @@
 'use client';
-import Image from "next/image";
-import Navbar from "./components/navbar"; // Ensure case matches actual filename
+import Navbar from "../components/navbar"; 
+import Header from "../components/header"; 
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
-        {/* Add content here */}
-      </main>
+      <Header/>
+
     </>
   );
 }
