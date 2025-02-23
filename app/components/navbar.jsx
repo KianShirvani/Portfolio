@@ -5,12 +5,12 @@ import React from 'react'
 const navbar = () => {
   return (
     <>
-      <nav className="flex items-center justify-between p-4">
-        <a href="#">
+      <nav className="w-full fixed px-5 lg:px-8 xl: px-[8%] py-4 flex items-center justify-between z-50">
+        <a href="#top">
           <Image src={assets.logo} alt="Logo" className="w-28 cursor-pointer mr-14" />
         </a>
 
-        <ul className="flex space-x-6">
+        <ul className="hidden md:flex items-center gap-6 lg: gap-8 rounded-full px-12 py-3">
           <li>
             <a href="#top">Home</a>
           </li>
@@ -29,7 +29,7 @@ const navbar = () => {
         </ul>
 
         <div>
-          <a href="#contact" className="flex items-center space-x-2">
+          <a href="#contact" className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4">
             <span>Contact</span>
             <Image src={assets.arrow_icon} alt="Arrow Icon" className="w-3" />
           </a>
