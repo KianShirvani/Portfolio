@@ -11,7 +11,7 @@ function header() {
   whileInView={{scale:1}}
   transition={{duration:0.6, type: 'spring', stiffness: 100}}
   >
-    <Image src={assets.profile_img} alt="" className="mx-auto rounded-full w-32" />
+    <Image src={assets.profile_img} alt="" className="mx-auto rounded-full w-64" />
 
   </motion.div>
     <motion.h3
