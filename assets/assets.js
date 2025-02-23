@@ -30,6 +30,9 @@ import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
 import moon_icon from './moon_icon.png';
+import bolt_icon from './bolt-icon.png';
+import neelco_icon from './neelco-icon.png';
+import td_icon from './td_icon.png';
 import sun_icon from './sun_icon.png';
 import arrow_icon from './arrow-icon.png';
 import arrow_icon_dark from './arrow-icon-dark.png';
@@ -51,6 +54,7 @@ export const assets = {
     code_icon,
     code_icon_dark,
     edu_icon,
+    neelco_icon,
     edu_icon_dark,
     project_icon,
     project_icon_dark,
@@ -78,6 +82,7 @@ export const assets = {
     close_black,
     close_white,
     web_icon,
+    bolt_icon,
     mobile_icon,
     ui_icon,
     graphics_icon,
@@ -93,7 +98,8 @@ export const assets = {
     mysql,
     pandas,
     docker,
-    tableau
+    tableau,
+    td_icon
 };
 
 export const workData = [
@@ -120,10 +126,9 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.bolt_icon, title: 'BOLT Analytics - Mobile Application Developer', description: 'Developing a mobile application that connects with a drone to assist UBC parking administration to identify parking violations ', link: 'https://www.instagram.com/boltanalytics/' },
+    { icon: assets.neelco_icon, title: 'Neelco Builders - Technical Coordinator', description: 'Led a data digitization initiative, converting 100% of physical files to digital format, implementing data controls to ensure data quality and readiness for analysis', link: '' },
+    { icon: assets.td_icon, title: 'TD Canada Trust', description: 'Earned Runner-up in the 2023 Pacific Region Legends Award, outperforming 95% of peers through innovative use of data analysis and reporting. ', link: '' },
 ]
 
 export const infoList = [
