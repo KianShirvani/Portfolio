@@ -42,9 +42,13 @@ className='text-center mb-2 text-lg font-Ovo'>Introduction</motion.h4>
               transition={{duration: 0.6, delay: 0.8}}
         className='flex-1'>
 
-        <p className='mb-10 max-w-2xl font-Ovo'>desc desc desc desc desc desc desc desc desc desc 
-        desc desc desc desc desc desc desc desc desc desc 
-        desc desc desc desc desc desc 
+        <p className='mb-10 max-w-2xl font-Ovo'>
+
+        My passion for computer science began unexpectedly at the age of 12 with Call of Duty. While most were eager about the new maps or weapons, I was drawn to the intricate details of bug fixes and patch notes. These seemingly minor adjustments illuminated the vast world of software engineering for me. Discovering how a small code change could significantly impact gameplay sparked a passion. I wanted to understand the intricate mechanics behind it, leading me down the path of software development and engineering.<br></br>
+        <br></br>
+During high school, after a couple of coding classes, I realized I was hooked on Computer Science. I decided then and there that I wanted to build software that could make a difference for people everywhere.
+<br></br><br></br>
+Currently, I'm studying Computer Science at the University of British Columbia.
         </p>
         <motion.ul
               initial={{opacity: 0}}
@@ -62,23 +66,31 @@ className='text-center mb-2 text-lg font-Ovo'>Introduction</motion.h4>
         </motion.ul>
 
         <motion.h4 
-                      initial={{opacity: 0}}
-                      whileInView={{opacity: 1}}
-                      transition={{duration: 0.6, delay: 1.5}}
-        className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</motion.h4>
-        <motion.ul 
-                      initial={{opacity: 0}}
-                      whileInView={{opacity: 1}}
-                      transition={{duration: 0.8, delay: 1}}
-        className='flex items-center gap-3 sm:gap-5'>
-            {toolsData.map((tool,index)=>(
-                <motion.li
-                whileHover={{scale: 1.1}} className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 '
-                 key={index}>
-                    <Image src={tool} alt='tool' className='w-5 sm:w-7'/>
-                </motion.li>
-            ))}
-        </motion.ul>
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 0.6, delay: 1.5 }}
+  className="my-6 text-gray-700 font-Ovo dark:text-white/80"
+>
+  Tools I use
+</motion.h4>
+
+<motion.ul 
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 0.8, delay: 1 }}
+  className="grid grid-cols-5 gap-4 sm:gap-6"
+>
+  {toolsData.map((tool, index) => (
+    <motion.li
+      whileHover={{ scale: 1.1 }}
+      className="flex items-center justify-center w-16 sm:w-20 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+      key={index}
+    >
+      <Image src={tool} alt="tool" className="w-8 sm:w-10"/>
+    </motion.li>
+  ))}
+</motion.ul>
+
 
         </motion.div>
 

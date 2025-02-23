@@ -27,15 +27,14 @@ function header() {
     initial={{y: -30, opacity: 0}}
     whileInView={{y: 0, opacity: 1}}
     transition={{duration:0.8, delay: 0.5}}
-    className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Full Stack developer  Full Stack developer </motion.h1>
+    className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Full Stack Developer Based in British Columbia, Canada </motion.h1>
     <motion.p 
      initial={{opacity: 0}}
      whileInView={{opacity: 1}}
      transition={{duration:0.6, delay: 0.7}}
     className='max-w-2xl mx-auto font-Ovo'>
-    Full Stack developerFull Stack developerFull Stack developerFull Stack developerFull Stack developerFull Stack developerFull Stack developer
-    Full Stack developerFull Stack developerFull Stack developerFull Stack developerFull Stack developerFull Stack developerFull Stack developer
-    Full Stack developerFull Stack developerFull Stack developerFull Stack developer
+    Aspiring software engineer with a strong foundation in computer science, data analytics, and full-stack development. Passionate about building innovative solutions that bridge technology and real-world applications. Seeking opportunities to apply analytical and problem-solving skills in a dynamic tech environment
+
     </motion.p>
 
     <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
