@@ -1,7 +1,7 @@
 import { assets, serviceData } from '@/assets/assets'
 import React from 'react'
 import Image from 'next/image'
-import { motion } from "motion/react"
+import { motion } from "framer-motion"
 
 
 const services = () => {
@@ -45,7 +45,7 @@ const services = () => {
                         {description}
                     </p>
 
-                    <a href={link} className='flex items-center gap-2 text-sm mt-5'>
+                    <a href={link} className='flex items-center gap-2 text-sm mt-5 hover:text-blue-500 transition-colors duration-300'>
                         Read More <Image src={assets.right_arrow} alt='' className='w-4' />
                     </a>
                     

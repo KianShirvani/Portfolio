@@ -1,8 +1,9 @@
 import { assets, workData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
-import { motion } from "motion/react"
+import { motion } from "framer-motion"
 import Link from 'next/link';
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const projects = () => {
   return (
@@ -48,9 +49,11 @@ transition={{duration: 1}}
                         <p className='text-sm text-gray-700'>{[project.description]}</p>
                     </div>
                   <Link href="https://github.com/KianShirvani">
-                      <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition cursor-pointer'>
-                          <Image src={assets.send_icon} alt='send icon' className='w-5' />
-                      </div>
+                      <motion.div 
+                        whileHover={{ scale: 1.1 }}
+                        className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition cursor-pointer'>
+                          <FaExternalLinkAlt className='w-4 h-4' />
+                      </motion.div>
                   </Link>
 
                     </div>
